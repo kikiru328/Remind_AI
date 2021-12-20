@@ -1,2 +1,10 @@
-# EXERICESE
-여러가지 시도해보기. 개선할 수 있는 거 해보고 업데이트!
+# Study
+	
+	keras
+	
+# Exercuse
+
+	Keras
+	Tensorflow
+	others
+	
