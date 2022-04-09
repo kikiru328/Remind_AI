@@ -71,7 +71,7 @@ model = tf.keras.Model(inputs=[inputs], outputs=[outputs])
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 model.summary()
 
-# model checkpoint
+# # model checkpoint
 checkpointer = tf.keras.callbacks.ModelCheckpoint('model_for_bone.h5',verbose=1,
                                                   save_best_only = True)
 callbacks = [
