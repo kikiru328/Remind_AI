@@ -11,7 +11,7 @@ import cv2
 
 IMG_WIDTH = 800
 IMG_HEIGHT = 800
-IMG_CHANNELS = 1
+IMG_CHANNELS = 3
 
 train_path = 'dataset/train/'
 val_path = 'dataset/val/'
@@ -50,11 +50,12 @@ for n, id_ in tqdm(enumerate(val_ids), total=len(val_ids)):
 
 print('Done!')
 
-image_x = random.randint(0, len(train_ids))
-imshow(X_train[image_x])
-plt.show()
-imshow(np.squeeze(Y_train[image_x]))
-plt.show()
+# image_x = random.randint(0, len(train_ids))
+# imshow(X_train[image_x])
+# plt.show()
+# imshow(np.squeeze(Y_train[image_x]))
+# plt.show()
+
 
 #Build the model
 inputs = tf.keras.layers.Input((IMG_HEIGHT, IMG_WIDTH, IMG_CHANNELS))
@@ -120,11 +121,19 @@ model.summary()
 checkpointer = tf.keras.callbacks.ModelCheckpoint('model_for_bone.h5',verbose=1,
                                                   save_best_only = True)
 callbacks = [
-    tf.keras.callbacks.EarlyStopping(patience=2, monitor = 'val_loss'),
+    tf.keras.callbacks.EarlyStopping(patience=10, monitor = 'val_loss'),
     tf.keras.callbacks.TensorBoard(log_dir='logs')
 ]
-results  = model.fit(X_train,Y_train, validation_split = 0.1, batch_size = 16, epochs = 25, callbacks=callbacks)
+results  = model.fit(X_train,Y_train, validation_split = 0.1, batch_size = 2, epochs = 300, callbacks=callbacks)
 
+model.save('bone_annotation_c3.h5')
+
+model_json = model.to_json()
+with open("bone_annotation_c3.json", "w") as json_file : 
+    json_file.write(model_json)
+
+model.save_weights("bone_annotation_weight_c3.h5")
+print("Saved model to disk")
 
 idx = random.randint(0, len(X_train))
 
@@ -146,6 +155,7 @@ plt.show()
 imshow(np.squeeze(Y_train[ix]))
 plt.show()
 imshow(np.squeeze(preds_train_t[ix]))
+cv2.imwrite('preds.png',preds_train_t[ix])
 plt.show()
 
 # Perform a sanity check on some random validation samples
@@ -155,4 +165,5 @@ plt.show()
 imshow(np.squeeze(Y_train[int(Y_train.shape[0]*0.9):][ix]))
 plt.show()
 imshow(np.squeeze(preds_val_t[ix]))
+cv2.imwrite('preds_val.png', preds_val_t[ix])
 plt.show()
