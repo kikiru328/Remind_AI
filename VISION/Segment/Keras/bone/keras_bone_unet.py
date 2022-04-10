@@ -28,11 +28,12 @@ for n, id_ in tqdm(enumerate(train_ids), total=len(train_ids)):
     img = imread(path + '/images/' + id_ + '.png')[:,:,:IMG_CHANNELS]  
     img = resize(img, (IMG_HEIGHT, IMG_WIDTH), mode='constant', preserve_range=True)
     X_train[n] = img  #Fill empty X_train with values from img
-    mask = np.zeros((IMG_HEIGHT, IMG_WIDTH, 1), dtype=np.bool_)
+    mask = np.zeros((IMG_HEIGHT, IMG_WIDTH,1) , dtype=np.bool_)
     for mask_file in next(os.walk(path + '/masks/'))[2]:
         mask_ = cv2.imread(path + '/masks/' + mask_file,0)
-        mask_ = np.expand_dims(resize(mask_, (IMG_HEIGHT, IMG_WIDTH), mode='constant',  
-                                      preserve_range=True), axis=-1)
+        # mask_ = np.expand_dims(resize(mask_, (IMG_HEIGHT, IMG_WIDTH), mode='constant',  
+        #                               preserve_range=True), axis=-1)
+        mask_ = cv2.resize(mask_, (IMG_HEIGHT, IMG_WIDTH))
         mask = np.maximum(mask, mask_)  
             
     Y_train[n] = mask   
@@ -126,13 +127,13 @@ callbacks = [
 ]
 results  = model.fit(X_train,Y_train, validation_split = 0.1, batch_size = 2, epochs = 300, callbacks=callbacks)
 
-model.save('bone_annotation_c3.h5')
+model.save('models/bone_trial.h5')
 
 model_json = model.to_json()
-with open("bone_annotation_c3.json", "w") as json_file : 
+with open("models/bone_trial.json", "w") as json_file : 
     json_file.write(model_json)
 
-model.save_weights("bone_annotation_weight_c3.h5")
+model.save_weights("weights/bone_trial.h5")
 print("Saved model to disk")
 
 idx = random.randint(0, len(X_train))
