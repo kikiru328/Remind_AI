@@ -1,0 +1,178 @@
+2022-03-24 12:02:59 [scrapy.extensions.telnet] INFO: Telnet Password: 67f5b2071ed6ae26
+2022-03-24 12:02:59 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-03-24 12:02:59 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-03-24 12:02:59 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-03-24 12:02:59 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-03-24 12:02:59 [WDM] INFO: 
+
+2022-03-24 12:02:59 [WDM] INFO: ====== WebDriver manager ======
+2022-03-24 12:03:00 [WDM] INFO: Current google-chrome version is 99.0.4844
+2022-03-24 12:03:00 [WDM] INFO: Get LATEST chromedriver version for 99.0.4844 google-chrome
+2022-03-24 12:03:00 [WDM] INFO: Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_win32.zip
+2022-03-24 12:03:00 [WDM] INFO: Driver has been saved in cache [C:\Users\baeky\.wdm\drivers\chromedriver\win32\99.0.4844.51]
+2022-03-24 12:03:01 [twisted] CRITICAL: Unhandled error in Deferred:
+2022-03-24 12:03:02 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "C:\Users\baeky\anaconda3\envs\scrapy\lib\site-packages\twisted\internet\defer.py", line 1660, in _inlineCallbacks
+    result = current_context.run(gen.send, result)
+  File "C:\Users\baeky\anaconda3\envs\scrapy\lib\site-packages\scrapy\crawler.py", line 103, in crawl
+    start_requests = iter(self.spider.start_requests())
+  File "C:\Dev\NLP\Crawling\Download\down\down\AA\AA\spiders\acu.py", line 56, in start_requests
+    urls = pd.read_csv(r'C:\Users\baeky\OneDrive\바탕 화면\study\study\practice_code\NLP\Scrapy\down\down\arcu.csv',index_col=0)
+  File "C:\Users\baeky\AppData\Roaming\Python\Python38\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\baeky\AppData\Roaming\Python\Python38\site-packages\pandas\io\parsers\readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\baeky\AppData\Roaming\Python\Python38\site-packages\pandas\io\parsers\readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\baeky\AppData\Roaming\Python\Python38\site-packages\pandas\io\parsers\readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "C:\Users\baeky\AppData\Roaming\Python\Python38\site-packages\pandas\io\parsers\readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "C:\Users\baeky\AppData\Roaming\Python\Python38\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "C:\Users\baeky\AppData\Roaming\Python\Python38\site-packages\pandas\io\parsers\base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "C:\Users\baeky\AppData\Roaming\Python\Python38\site-packages\pandas\io\common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\baeky\\OneDrive\\바탕 화면\\study\\study\\practice_code\\NLP\\Scrapy\\down\\down\\arcu.csv'
+2022-03-24 12:03:18 [scrapy.extensions.telnet] INFO: Telnet Password: 7cfa0568cb57f944
+2022-03-24 12:03:18 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-03-24 12:03:18 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-03-24 12:03:18 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-03-24 12:03:18 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-03-24 12:03:18 [WDM] INFO: 
+
+2022-03-24 12:03:18 [WDM] INFO: ====== WebDriver manager ======
+2022-03-24 12:03:19 [WDM] INFO: Current google-chrome version is 99.0.4844
+2022-03-24 12:03:19 [WDM] INFO: Get LATEST chromedriver version for 99.0.4844 google-chrome
+2022-03-24 12:03:19 [WDM] INFO: Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_win32.zip
+2022-03-24 12:03:19 [WDM] INFO: Driver has been saved in cache [C:\Users\baeky\.wdm\drivers\chromedriver\win32\99.0.4844.51]
+2022-03-24 12:03:34 [twisted] CRITICAL: Unhandled error in Deferred:
+2022-03-24 12:03:34 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "C:\Users\baeky\anaconda3\envs\scrapy\lib\site-packages\twisted\internet\defer.py", line 1660, in _inlineCallbacks
+    result = current_context.run(gen.send, result)
+  File "C:\Users\baeky\anaconda3\envs\scrapy\lib\site-packages\scrapy\crawler.py", line 103, in crawl
+    start_requests = iter(self.spider.start_requests())
+TypeError: 'NoneType' object is not iterable
+2022-03-24 12:08:44 [scrapy.extensions.telnet] INFO: Telnet Password: d68aab49eb1b486e
+2022-03-24 12:08:44 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-03-24 12:08:44 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-03-24 12:08:44 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-03-24 12:08:44 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-03-24 12:08:44 [WDM] INFO: 
+
+2022-03-24 12:08:44 [WDM] INFO: ====== WebDriver manager ======
+2022-03-24 12:08:45 [WDM] INFO: Current google-chrome version is 99.0.4844
+2022-03-24 12:08:45 [WDM] INFO: Get LATEST chromedriver version for 99.0.4844 google-chrome
+2022-03-24 12:08:45 [WDM] INFO: Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_win32.zip
+2022-03-24 12:08:45 [WDM] INFO: Driver has been saved in cache [C:\Users\baeky\.wdm\drivers\chromedriver\win32\99.0.4844.51]
+2022-03-24 12:08:48 [twisted] CRITICAL: Unhandled error in Deferred:
+2022-03-24 12:08:48 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "C:\Users\baeky\anaconda3\envs\scrapy\lib\site-packages\twisted\internet\defer.py", line 1660, in _inlineCallbacks
+    result = current_context.run(gen.send, result)
+  File "C:\Users\baeky\anaconda3\envs\scrapy\lib\site-packages\scrapy\crawler.py", line 103, in crawl
+    start_requests = iter(self.spider.start_requests())
+TypeError: 'NoneType' object is not iterable
+2022-03-24 12:09:54 [scrapy.extensions.telnet] INFO: Telnet Password: d981b526248e3c59
+2022-03-24 12:09:54 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-03-24 12:09:54 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-03-24 12:09:54 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-03-24 12:09:54 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-03-24 12:09:54 [WDM] INFO: 
+
+2022-03-24 12:09:54 [WDM] INFO: ====== WebDriver manager ======
+2022-03-24 12:09:54 [WDM] INFO: Current google-chrome version is 99.0.4844
+2022-03-24 12:09:54 [WDM] INFO: Get LATEST chromedriver version for 99.0.4844 google-chrome
+2022-03-24 12:09:54 [WDM] INFO: Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_win32.zip
+2022-03-24 12:09:54 [WDM] INFO: Driver has been saved in cache [C:\Users\baeky\.wdm\drivers\chromedriver\win32\99.0.4844.51]
+2022-03-24 12:09:58 [twisted] CRITICAL: Unhandled error in Deferred:
+2022-03-24 12:09:58 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "C:\Users\baeky\anaconda3\envs\scrapy\lib\site-packages\twisted\internet\defer.py", line 1660, in _inlineCallbacks
+    result = current_context.run(gen.send, result)
+  File "C:\Users\baeky\anaconda3\envs\scrapy\lib\site-packages\scrapy\crawler.py", line 103, in crawl
+    start_requests = iter(self.spider.start_requests())
+TypeError: 'NoneType' object is not iterable

@@ -1,0 +1,54 @@
+﻿대분류,대분류코드,중분류,중분류코드,중분류한자,부위,취혈,침구법,url
+수양명대장경,LI,영향,LI20,迎香,"얼굴, 코입술고랑(nasolabial sulcus) 위, 콧방울(ala of the nose) 가쪽모서리의 중점과 같은 높이.",- 直刺 0.2～0.3寸,NONE,https://www.kmcric.com/database/acupoint/LI/LI20
+수양명대장경,LI,화료,LI19,禾髎,"얼굴, 인중 부위(philtrum)의 중점과 같은 높이, 콧구멍 가쪽모서리 아래 쪽.",콧구멍가쪽모서리의 수직선과 인중 도랑의 중점에 해당하는 점의 수평선의 교점에서 취혈한다.,"- 直刺 0.2～0.3寸
+- 斜刺 0.3～0.5寸",https://www.kmcric.com/database/acupoint/LI/LI19
+수태양소장경,SI,관료,SI18,顴髎,"얼굴, 광대뼈(zygomatic bone) 아래쪽, 가쪽눈구석(outer canthus)에서 수직으로 아래쪽 오목한 곳.",광대뼈 아래모서리의 수평선과 가쪽눈 구석의 수직선이 만나는 부위의 오목한 곳에서 취혈한다.,"- 直刺 0.2～0.3寸
+- 斜刺 0.5～1寸 (下方으로 향해)
+- 禁鍼灸 (『醫學入門』)
+- 刺二分禁灸 (『類經圖翼』)",https://www.kmcric.com/database/acupoint/SI/SI18
+수소양삼초경,TE,사죽공,TE23,絲竹空,"머리, 눈썹 가쪽끝의 오목한 곳.",- 直刺 0.2～0.3寸,NONE,https://www.kmcric.com/database/acupoint/TE/TE23
+족양명위경,ST,승읍,ST1,承泣,"얼굴, 동공(pupil)에서 수직으로 아래 쪽, 안구(eyeball)와 눈확아래모서리(infraorbital margin)의 사이.",- 直刺 0.2～0.3寸,NONE,https://www.kmcric.com/database/acupoint/ST/ST1
+족양명위경,ST,사백,ST2,四白,"얼굴, 눈확아래구멍(infraorbital foramen).",눈확아래구멍은 동공(pupil)에서 수직으로 아래쪽에서 촉지된다.,"- 直刺 0.2～0.3寸
+- 斜刺 0.3～0.5寸",https://www.kmcric.com/database/acupoint/ST/ST2
+족양명위경,ST,거료,ST3,巨髎,"얼굴, 동공(pupil)에서 수직으로 아래 쪽, 콧방울(ala of the nose) 아래모서리와 같은 높이.","고개를 들고 앞을 바로 볼 때, 동공을 지나는 수직선과 콧방울 아래모서리를 지나는 수평선이 만나는 지점에서 취혈한다. 수직으로 위쪽에 四白(ST2)이 위치한다.","- 直刺 0.3～0.5寸
+- 斜刺 0.5～1寸",https://www.kmcric.com/database/acupoint/ST/ST3
+족양명위경,ST,지창,ST4,地倉,"얼굴, 입꼬리에서 가쪽으로 0.4寸.","입꼬리 옆쪽, 코입술고랑(nasolabialsulcus) 위 혹은 코입술고랑의 연장선상에서 취혈한다.","- 直刺 0.3～0.5寸
+- 橫刺 1～1.5寸
+- 顔面神經麻痺 치료시 頰車(ST6)로 透刺 1.5～2.5寸
+- 三叉神經痛 치료시 迎香(LI20)으로 透刺 1～2寸",https://www.kmcric.com/database/acupoint/ST/ST4
+족양명위경,ST,두유,ST8,頭維,"머리, 이마각(corner of the forehead) 前髮際(anterior hairline)에서 수직으로 위쪽으로 0.5寸, 앞정중선(anterior median line)에서 가쪽으로 4.5寸.",- 直刺 0.2～0.3寸,NONE,https://www.kmcric.com/database/acupoint/ST/ST8
+족태양방광경,BL,정명,BL1,睛明,"얼굴, 안쪽눈구석(inner canthus)의 위 안쪽 부분과 눈확(orbit)의 안쪽 벽 사이의 오목한 곳.","눈을 감고 눈동자를 반대편으로 돌린 상태에서, 안쪽눈구석에서 위안쪽으로 0.1寸 지점의 오목한 곳에서 취혈한다.","- 直刺 0.1～0.3寸 (不宜深刺)
+- 斜刺 0.3～0.7寸",https://www.kmcric.com/database/acupoint/BL/BL1
+족태양방광경,BL,찬죽,BL2,攢竹,"머리, 눈썹 안쪽끝의 오목한 곳.","이마뼈패임(frontal notch), 睛明(BL1)에서 수직으로 위쪽, 눈썹 안쪽끝에서 취혈한다.","- 直刺 0.3～0.5寸
+- 三稜鍼으로 點刺出血
+- 眼疾患 치료시 鍼尖을 下向하여 睛明(BL1)이나 外方의 絲竹空(TE23)으로 斜透刺 0.5～1寸",https://www.kmcric.com/database/acupoint/BL/BL2
+족태양방광경,BL,미충,BL3,眉衝,"머리, 이마뼈패임(frontal notch)의 위 쪽, 前髮際(anterior hairline)에서 위 쪽으로 0.5寸.",神庭(GV24)을 지나는 수평선과 攢竹(BL2)을 지나는 수직선이 만나는 곳에서 취혈한다. 神庭(GV24)과 曲差(BL4) 사이의 중간에 위치한다.,"- 直刺 0.2～0.3寸
+- 斜刺 0.3～0.5寸 (鍼尖을 上方 혹은 外方으로 향하고 피부를 沿하여 橫刺)",https://www.kmcric.com/database/acupoint/BL/BL3
+족태양방광경,BL,곡차,BL4,曲差,"머리, 前髮際(anterior hairline)에서 위쪽으로 0.5寸, 앞정중선(anterior median line)에서 가쪽으로 1.5寸.","神庭(GV24)과 頭維(ST8)를 연결하는 활모양의 가상선에서 안쪽으로부터 1/3, 가 쪽으로부터 2/3가 되는 지점에서 취혈한다.","- 直刺 0.2～0.3寸
+- 斜刺(橫刺) 0.3～0.5寸",https://www.kmcric.com/database/acupoint/BL/BL4
+족소양담경,GB,동자료,GB1,瞳子髎,"머리, 가쪽눈구석(outer canthus)에서 가쪽으로 0.5寸 오목한 곳.","눈초리(目外眥) 가쪽 약 0.5寸으로, 눈확가쪽모서리 오목한 곳에서 취혈한다.","- 直刺 0.2～0.3寸
+- 斜刺 0.3～0.5寸
+- 橫刺 0.5～1寸 (太陽을 향해 刺入)",https://www.kmcric.com/database/acupoint/GB/GB1
+족소양담경,GB,양백,GB14,陽白,"머리, 동공(pupil) 중심에서 수직으로 위쪽, 눈썹 위쪽으로 1寸.",- 直刺 0.2～0.3寸,NONE,https://www.kmcric.com/database/acupoint/GB/GB14
+독맥,GV,소료,GV25,素髎,"얼굴, 코끝.",- 直刺 0.1～0.2寸,NONE,https://www.kmcric.com/database/acupoint/GV/GV25
+독맥,GV,수구,GV26,水溝,"얼굴, 인중 정중선(philtrum midline) 의 중점.",- 直刺 0.2～0.3寸,NONE,https://www.kmcric.com/database/acupoint/GV/GV26
+독맥,GV,태단,GV27,兌端,"얼굴, 윗입술결절(tubercle of the upper lip)의 중점.",인중 고랑 아랫부분과 붉은 입술이 이루는 경계선의 중점에서 취혈한다.,"- 直刺 0.1～0.3寸
+- 斜刺 0.2～0.3寸",https://www.kmcric.com/database/acupoint/GV/GV27
+독맥,GV,은교,GV28,齦交,"얼굴, 위입술주름띠(frenulum of the upper lip)와 위잇몸(upper gum)이 만나는 지점.","앉은 자세에서 머리를 젖히고 위입술을 들어올려, 위입술주름띠와 위잇몸이 만나는 지점에서 취혈한다.","- 直刺 0.1～0.2寸
+- 斜刺 0.1～0.3寸 (鍼尖을 上向하여 刺入)
+- 三稜鍼으로 點刺出血",https://www.kmcric.com/database/acupoint/GV/GV28
+임맥,CV,승장,CV24,承漿,"얼굴, 턱끝입술고랑(mentolabial sulcus) 가운데의 오목한 곳.",- 直刺 0.2～0.3寸,NONE,https://www.kmcric.com/database/acupoint/CV/CV24
+경외기혈,EX,당양,EX-HN2,當陽,"머리 앞부분, 동공 바로 위 髮際에서 1寸 올라간 부위.","눈은 정면을 바라보고, 동공 바로 위 髮際에서 1寸 올라간 부위에서 취혈한다. 頭臨泣(GB15)에서 위로 0,5寸에 위치한다.",- 橫刺 0.5～0.8寸,https://www.kmcric.com/database/acupoint/EX/EX-HN2
+경외기혈,EX,인당,EX-HN3,印堂,이마에서 두 눈썹 사이.,이마에서 두 눈썹 사이의 오목한 곳을 취혈한다.,"- 橫刺 0.3～0.5寸
+- 三稜鍼으로 點刺出血.",https://www.kmcric.com/database/acupoint/EX/EX-HN3
+경외기혈,EX,어요,EX-HN4,魚腰,"머리의 이마부위(frontal region), 동공(pupil) 바로 위의 눈썹 중앙 부위.","앞을 똑바로 바라보고, 동공(pupil) 바로 위의 눈썹 중앙 부위에서 취혈한다.",- 橫刺 0.3～0.5寸,https://www.kmcric.com/database/acupoint/EX/EX-HN4
+경외기혈,EX,태양,EX-HN5,太陽,눈썹 바깥쪽 끝과 目外眥의 중점으로부터 뒤로 1寸.,- 直刺 0.3～0.5寸,NONE,https://www.kmcric.com/database/acupoint/EX/EX-HN5
+경외기혈,EX,구후,EX-HN7,球後,눈확 아래 모서리에서 바깥쪽 1/4와 안쪽 3/4의 지점.,- 눈확 아래 모서리에서 바깥쪽아래로부터 안쪽위로 0.5～1寸 刺入.,NONE,https://www.kmcric.com/database/acupoint/EX/EX-HN7
+경외기혈,EX,상영향,EX-HN8,上迎香,코연골과 코선반능선이 만나는 곳으로 鼻唇溝(nasolabial fold)의 위쪽 끝 지점.,- 斜刺 0.3～0.5寸(向內上方),NONE,https://www.kmcric.com/database/acupoint/EX/EX-HN8
+경외기혈,EX,내영향,EX-HN9,內迎香,콧구멍 안에서 코연골과 코선반능선이 만나는 점막부위.,"- 三稜鍼으로 點刺出血하며, 出血이 잦은 사람은 禁忌한다.",NONE,https://www.kmcric.com/database/acupoint/EX/EX-HN9
+경외기혈,EX,취천,EX-HN10,聚泉,舌의 背側 정중선의 중점.,혀를 내밀어서 背側面 정중선의 중점에서 취혈한다.,"- 直刺 0.1～0.2寸
+- 舌强, 舌苔에는 點刺出血",https://www.kmcric.com/database/acupoint/EX/EX-HN10
+경외기혈,EX,해천,EX-HN11,海泉,舌下 系帶의 중점.,혀를 위로 말아서 舌系帶 중점의 靜脈部位에서 취혈한다.,"- 直刺 0.1～0.2寸
+- 舌强, 舌苔에는 點刺出血",https://www.kmcric.com/database/acupoint/EX/EX-HN11
+경외기혈,EX,금진,EX-HN12,金津,"舌下의 舌系帶 兩側 靜脈部位로, 左側을 金津, 右側을 玉液이라 한다.","혀를 위로 말아서 舌下의 舌系帶 兩側 靜脈에서 左側을 金津, 右側을 玉液으로 취혈한다.",- 點刺出血,https://www.kmcric.com/database/acupoint/EX/EX-HN12
+경회기혈,EX,옥액,EX-HN13,玉液,"舌下의 舌系帶 兩側 靜脈部位로, 左側을 金津, 右側을 玉液이라 한다.","혀를 위로 말아서 舌下의 舌系帶 兩側 靜脈에서 左側을 金津, 右側을 玉液으로 취혈한다.",- 點刺出血,https://www.kmcric.com/database/acupoint/EX/EX-HN13
