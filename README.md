@@ -1,10 +1,5 @@
-# Study
-	
-	Keras
-	
-# Exercuse
+# REMIND MODUELS
 
-	Keras
-	Tensorflow
-	others
-	
+made for remind code
+
+will be deleted until seperate repository
