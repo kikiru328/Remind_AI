@@ -7,7 +7,7 @@ def basic():
     yolo = torch.load(model_path, map_location='cpu')
     yolo.conf = 0.4
     return 
-
+ 
 def data(path):
     data = pd.read_excel('/content/Sample/골연령측정자료220307.xlsx')
     data = data.dropna()
